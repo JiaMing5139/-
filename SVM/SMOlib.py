@@ -23,6 +23,7 @@ class SMO(object):
         print self.dataMatlabelMat
 
     def selectJrand(i,m):
+        #i,第一个alpha的下表,m，alpha的数目
         j = i
         while ( j == i ):
             j = int (random.uniform(0 , m))
